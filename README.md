@@ -1,6 +1,5 @@
 # Customer Support Chatbot with Amazon Bedrock Flows & AgentCore
 
-*Project from the Udacity Future AWS Agent Engineer program (TODO Cindy: confirm the program and completion date).*
 
 ## Summary
 I built a customer-support chatbot for a fictional online shop. Every customer message gets sorted into one of three groups, and each group is handled differently:
