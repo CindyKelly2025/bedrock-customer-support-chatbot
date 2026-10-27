@@ -1,0 +1,11 @@
+{
+  "job_name": "flow-eval-run-1",
+  "region": "us-east-1",
+  "evaluator_model_identifier": "amazon.nova-pro-v1:0",
+  "metric_names": [
+    "Builtin.Correctness"
+  ],
+  "inference_source_identifier": "<YOUR_FLOW_ALIAS_ARN>",
+  "dataset_s3_uri": "s3://<YOUR_S3_BUCKET>/output_eval_dataset.jsonl",
+  "output_s3_uri": "s3://<YOUR_S3_BUCKET>/results/"
+}
