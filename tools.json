@@ -1,0 +1,27 @@
+{
+  "tools": [
+    {
+      "name": "create_bug_report",
+      "description": "Create a bug report after all required fields have been collected.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "stepsToReproduce": {
+            "type": "string"
+          },
+          "environment": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "description",
+          "stepsToReproduce",
+          "environment"
+        ]
+      }
+    }
+  ]
+}
